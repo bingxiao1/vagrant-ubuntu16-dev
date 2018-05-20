@@ -8,3 +8,4 @@ sudo apt-get update
 sudo apt-get install -y python3.6
 curl https://bootstrap.pypa.io/ez_setup.py -o - | sudo python3.6 && sudo python3.6 -m easy_install pip
 sudo pip3 install virtualenv
+echo "if not $__BASHRC_CUSTOMIZED__; then source /vagrant/bashrc_customization.sh >> /home/vagrant/.bashrc; fi"
